@@ -1,0 +1,7 @@
+.bookmark-icon:hover {
+    cursor: pointer;
+}
+
+.bookmark-icon.active path {
+    fill: black;
+}

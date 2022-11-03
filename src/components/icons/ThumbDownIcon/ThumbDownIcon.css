@@ -1,0 +1,7 @@
+.thumb-down-icon:hover{
+    cursor: pointer;
+}
+
+.thumb-down-icon.active path{
+    fill: red;
+}
