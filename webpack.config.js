@@ -5,6 +5,15 @@ const path = require('path');
 module.exports = {
     mode: 'development',
     entry: './src/index.tsx',
+    resolve: {
+        extensions: ['.js', '.ts'],
+        alias: {
+            '@components': path.resolve(__dirname, './src/components/'),
+            '@apis': path.resolve(__dirname, './src/apis/'),
+            '@pages': path.resolve(__dirname, './src/pages/'),
+
+        },
+    },
     output: {
         path: __dirname + '/dist/',
     },

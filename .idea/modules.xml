@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/tms-react.iml" filepath="$PROJECT_DIR$/.idea/tms-react.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/tms-blogfolio.iml" filepath="$PROJECT_DIR$/.idea/tms-blogfolio.iml" />
     </modules>
   </component>
 </project>

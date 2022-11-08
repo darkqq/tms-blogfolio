@@ -1,16 +1,15 @@
 import React, {useEffect, useState} from 'react';
 import {getData} from "./data/tempData";
-import {Card} from "./components/cards";
+import {Card} from '@components/cards';
+
 
 
 const App = () => {
-
     const [posts, setPosts] = useState([]);
 
     useEffect(() => {
         setPosts(getData);
     })
-
 
     return (
         <>

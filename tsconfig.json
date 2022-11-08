@@ -11,6 +11,12 @@
     "strict": true,
     "sourceMap": true,
     "target": "esnext",
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["./src/components/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@apis/*": ["./src/apis/*"],
+    }
   },
   "include": ["src/components", "src/custom.d.ts"],
   "exclude": [
